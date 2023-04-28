@@ -1,5 +1,5 @@
 {
-    "name": "charleshopkinsiv/bot-driver",
+    "name": "charleshopkinsiv/botdriver",
     "require": {
         "php-webdriver/webdriver": "^1.11"
     },

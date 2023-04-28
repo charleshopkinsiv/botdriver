@@ -61,6 +61,13 @@ class BotDriver
     }
 
 
+    public function getContent()
+    {
+
+        return $this->webDriver()->getPageSource();
+    }
+
+
     public function getCookieFileLoc(string $account) : string
     {
 
