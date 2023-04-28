@@ -8,7 +8,6 @@ use WebDriverLoader\ChromeDriverLoader;
 use Facebook\WebDriver\WebDriverExpectedCondition;
 use Facebook\WebDriver\WebDriverBy;
 use Facebook\WebDriver\Remote\{RemoteWebElement,RemoteWebDriver};
-use App\Models\Account;
 
 
 class BotDriver
@@ -47,10 +46,6 @@ class BotDriver
             unset($this->WebDriver);
         }
     }
-
-
-    public function setAccount(ClAccount $account)    { $this->account = $account; }
-    public function getAccount()                    { return $this->account; }
 
 
     public function setIpAddress(string $ip_address) { $this->ip_address = $ip_address; }
