@@ -1,0 +1,25 @@
+{
+    "name": "charleshopkinsiv/bot-driver",
+    "require": {
+        "php-webdriver/webdriver": "^1.11"
+    },
+    "description": "A tool for driving bots.",
+    "license": "MIT",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/charleshopkinsiv/botdriver"
+        }
+    ],
+    "authors": [
+        {
+            "name": "Charles Hopkins",
+            "email": "charleshopkinsiv@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "BotDriver\\": "/src"
+        }
+    }
+}
